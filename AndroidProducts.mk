@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_X01AD.mk
+    $(LOCAL_DIR)/nad_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_X01AD-user \
-    octavi_X01AD-userdebug \
-    octavi_X01AD-eng
+    nad_X01AD-user \
+    nad_X01AD-userdebug \
+    nad_X01AD-eng
