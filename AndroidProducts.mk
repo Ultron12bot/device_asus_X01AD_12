@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_X01AD.mk
+    $(LOCAL_DIR)/cherish_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_X01AD-user \
-    octavi_X01AD-userdebug \
-    octavi_X01AD-eng
+    cherish_X01AD-user \
+    cherish_X01AD-userdebug \
+    cherish_X01AD-eng
