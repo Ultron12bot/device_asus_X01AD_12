@@ -22,14 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/X01AD/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/nusantara/config/common.mk)
+$(call inherit-product, vendor/octavi/config/common.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Device identifiers.
 PRODUCT_DEVICE := X01AD
-PRODUCT_NAME := voltage_X01AD
+PRODUCT_NAME := octavi_X01AD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Max M2
 PRODUCT_MANUFACTURER := asus
@@ -38,6 +38,6 @@ BOARD_VENDOR := asus
 	
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 # ArrowOS Properties
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 DEVICE_MAINTAINER := wayne
 TARGET_INCLUDE_PIXEL_CHARGER := true
