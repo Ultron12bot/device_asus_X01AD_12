@@ -38,6 +38,9 @@ BOARD_VENDOR := asus
 	
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 # ArrowOS Properties
-TARGET_BOOT_ANIMATION_RES := 720
 DEVICE_MAINTAINER := wayne
 TARGET_INCLUDE_PIXEL_CHARGER := true
+
+
+# ArrowOS additions
+DEVICE_MAINTAINER := wayne
