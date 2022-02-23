@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_X01AD.mk
+    $(LOCAL_DIR)/aosp_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_X01AD-user \
-    syberia_X01AD-userdebug \
-    syberia_X01AD-eng
+    aosp_X01AD-user \
+    aosp_X01AD-userdebug \
+    aosp_X01AD-eng
