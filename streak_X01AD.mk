@@ -22,14 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/X01AD/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/bliss/config/common.mk)
+$(call inherit-product, vendor/streak/config/common.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Device identifiers.
 PRODUCT_DEVICE := X01AD
-PRODUCT_NAME := bliss_X01AD
+PRODUCT_NAME := streak_X01AD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Asus Max M2
 PRODUCT_MANUFACTURER := asus
