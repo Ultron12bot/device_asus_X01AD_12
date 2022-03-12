@@ -7,3 +7,6 @@ type cdfinger_device1, dev_type;
 type cdfinger_device2, dev_type;
 type ff_device, dev_type;
 type fingerprintd_device, dev_type;
+# Mark system_block_devices as super partition block devices for retrofit
+# dynamic partitions.
+typeattribute system_block_device super_block_device_type;
